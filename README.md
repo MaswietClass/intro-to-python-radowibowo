@@ -9,16 +9,15 @@ Jawablah pertanyaan berikut ini dengan singkat dan jelas
     * Jawab: Karena jika tidak sesuai aturan Indentation, maka akan terjadi error. Contoh :
 Here is an example of a correctly (though confusingly) indented piece of Python code:
 
-      def perm(l):
-        Compute the list of all permutations of l
-    if len(l) <= 1:
-                  return [l]
+    def perm(l):
+      if len(l) <= 1:
+    return [l]
     r = []
     for i in range(len(l)):
              s = l[:i] + l[i+1:]
              p = perm(s)
              for x in p:
-              r.append(l[i:i+1] + x)
+             r.append(l[i:i+1] + x)
     return r
 
 The following example shows various indentation errors:
