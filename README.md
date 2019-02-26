@@ -9,7 +9,7 @@ Jawablah pertanyaan berikut ini dengan singkat dan jelas
     * Jawab: Karena jika tidak sesuai aturan Indentation, maka akan terjadi error. Contoh :
 Here is an example of a correctly (though confusingly) indented piece of Python code:
 
-def perm(l):
+      def perm(l):
         # Compute the list of all permutations of l
     if len(l) <= 1:
                   return [l]
