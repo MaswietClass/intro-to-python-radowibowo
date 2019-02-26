@@ -20,6 +20,7 @@ def perm(l):
              for x in p:
               r.append(l[i:i+1] + x)
     return r
+
 The following example shows various indentation errors:
 
      def perm(l):                       # error: first line indented
