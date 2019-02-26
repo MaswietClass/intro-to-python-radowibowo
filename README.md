@@ -10,7 +10,7 @@ Jawablah pertanyaan berikut ini dengan singkat dan jelas
 Here is an example of a correctly (though confusingly) indented piece of Python code:
 
       def perm(l):
-        # Compute the list of all permutations of l
+        Compute the list of all permutations of l
     if len(l) <= 1:
                   return [l]
     r = []
